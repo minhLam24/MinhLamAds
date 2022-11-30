@@ -843,7 +843,9 @@ p {
 
   @media (max-width: 767px) {
     .header_hero_content .header_title {
-      font-size: 24px; } }
+      font-size: 24px; }
+      
+    }
   @media only screen and (min-width: 576px) and (max-width: 767px) {
     .header_hero_content .header_title {
       font-size: 30px; } }
@@ -874,6 +876,22 @@ p {
   transform: translateY(42px);
   width: 665px;
   height: 810px;
+}
+@media (max-width: 1377px) {
+  .header_hero_image {
+    width: 550px;
+  }
+}
+@media (max-width: 1147px) {
+  .header_hero_image {
+    width: 450px;
+  }
+}
+@media (max-width: 635px) {
+  .header_hero_image {
+    width: 400px;
+    height: 600px;
+  }
 }
 
 .header_hero_content .main-btn {
