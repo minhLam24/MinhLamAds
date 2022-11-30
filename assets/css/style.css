@@ -871,7 +871,9 @@ p {
 }
 
 .header_hero_image {
-  transform: translateY(32px);
+  transform: translateY(42px);
+  width: 665px;
+  height: 810px;
 }
 
 .header_hero_content .main-btn {
@@ -903,7 +905,7 @@ img[alt="hero"] {
 
 .header_hero_image img {
   width: 100%; 
-  
+  height: 100%;
 }
 
 /*===========================
@@ -920,10 +922,11 @@ img[alt="hero"] {
   transition: all 0.6s ease-in-out;
 }
   .about_image img {
-    width: 86%;
+    width: 87%;
+    
     position: relative;
     margin-bottom: 14px;
-    transform: translate(-1px, 27px);
+    transform: translate(-4px, 27px);
   }
   .about_image .about_shape {
     width: 404px;
