@@ -870,6 +870,9 @@ p {
   animation: show_heading 1s ease-in-out 1.75s forwards;
 }
 
+.header_hero_image {
+  transform: translateY(32px);
+}
 
 .header_hero_content .main-btn {
   margin-top: 30px; 
@@ -900,6 +903,7 @@ img[alt="hero"] {
 
 .header_hero_image img {
   width: 100%; 
+  
 }
 
 /*===========================
@@ -911,14 +915,15 @@ img[alt="hero"] {
 .about_image {
   position: relative; 
   transform: translateX(-100%);
+  
   opacity: 0.5;
   transition: all 0.6s ease-in-out;
 }
   .about_image img {
-    width: 100%;
+    width: 86%;
     position: relative;
     margin-bottom: 14px;
-    
+    transform: translate(-1px, 27px);
   }
   .about_image .about_shape {
     width: 404px;
